@@ -1,0 +1,10 @@
+:root { font-family: Inter, system-ui, sans-serif; }
+body { margin: 0; background: #0f172a; color: #e2e8f0; }
+header { padding: 2rem; background: #1e293b; }
+main { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit,minmax(290px,1fr)); padding: 1rem; }
+.card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 1rem; }
+form { display: grid; gap: .5rem; }
+input, select, button { border-radius: 8px; border: 1px solid #475569; padding: .6rem; background: #0f172a; color: #e2e8f0; }
+button { cursor: pointer; }
+.agent-card, .contract-card { border: 1px solid #475569; border-radius: 10px; padding: .6rem; margin-top: .7rem; }
+pre { white-space: pre-wrap; color: #93c5fd; }
